@@ -1,4 +1,4 @@
-# 🐍 Business Application Development – Python Assignments (1–9)
+# 🐍 Business Application Development – Python 
 
 ## 📚 Course
 609: Business Application Development – UMass Amherst
