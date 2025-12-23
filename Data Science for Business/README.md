@@ -7,7 +7,8 @@
 ## 🛠 Tools & Tech Stack
 -   **Languages:** Python (Pandas, NumPy, Scikit-Learn), SQL
 -   **Modeling:** Logistic Regression, Decision Trees, **Ensemble Methods (Random Forest, Gradient Boosting)**, K-Means Clustering
--   **Evaluation:** ROC-AUC, Lift & Gains Charts, Confusion Matrices, RMSE/MAE
+-   **Optimization:** **GridSearchCV (Hyperparameter Tuning)**, Feature Selection (RFE)
+-   **Evaluation:** **Expected Value Framework (Profit Curves)**, Lift & Gains Charts, ROC-AUC
 -   **Ethics:** AIF360 (Fairness Metrics), Disparate Impact Analysis
 
 ---
@@ -24,16 +25,16 @@
 
 #### Case 2: Telco Customer Churn (End-to-End Pipeline)
 **Goal:** **Customer Retention.** Predict which customers are likely to cancel service.
--   **🔑 Key Technical Skills:** Binary Classification, **Feature Encoding (One-Hot)**, Handling Imbalanced Data, Train-Test Split, Scikit-Learn Pipelines.
+-   **🔑 Key Technical Skills:** Binary Classification, **Feature Scalarization (StandardScaler)**, One-Hot Encoding, Handling Imbalanced Data, Train-Test Split.
 -   **Business Insight:** Enabled proactive identification of "at-risk" customers to reduce churn rates.
 -   **File:** `Unguided Case 2_ Telco Customer Churn.ipynb`
 
 #### Case 3: HR Analytics – Employee Attrition (Ensembles)
 **Goal:** **Workforce Planning.** Predict voluntary turnover and understand *why* employees leave.
 -   **🔑 Key Technical Skills:**
-    * **Decision Trees:** Rule Induction, Entropy & Gini Impurity.
-    * **Ensemble Methods:** **Random Forest (Bagging)**, **Gradient Boosting (Boosting)**.
-    * **Model Comparison:** Benchmarking multiple algorithms (Logistic vs. Trees vs. Ensembles).
+    * **Hyperparameter Tuning:** Using **GridSearchCV** to optimize model performance.
+    * **Ensemble Methods:** **Random Forest** & **Gradient Boosting** compared against baseline Logistic Regression.
+    * **Decision Trees:** Rule Induction (Entropy/Gini).
 -   **Business Insight:** Balanced model accuracy with interpretability to help HR intervene before employees resign.
 -   **Files:** `Case 3.1...ipynb`, `Case 3.2...ipynb`, `Case 3.3...ipynb`
 
@@ -47,15 +48,17 @@
 -   **Business Insight:** Quantified the marginal dollar value of specific home features (e.g., "impact of an extra bedroom").
 -   **Files:** `Case 4.1...ipynb`, `Case 4.2...ipynb`
 
-#### Case 5: Bank Marketing Optimization (Advanced Evaluation)
-**Goal:** **Marketing ROI.** Maximize the efficiency of a term-deposit marketing campaign.
--   **🔑 Key Technical Skills:** Precision/Recall Trade-off, F1-Score, **Lift Charts**, **Cumulative Gains Charts**, Decile Analysis.
--   **Business Insight:** Proved that targeting top-decile prospects captures 60% of responders with only 20% of the effort/cost.
+#### Case 5: Bank Marketing Optimization (Financial Evaluation)
+**Goal:** **Marketing ROI.** Maximize the profit of a term-deposit marketing campaign.
+-   **🔑 Key Technical Skills:**
+    * **Expected Value Framework:** Calculating the **Profit from the Confusion Matrix** (Benefit of True Positive vs. Cost of False Positive).
+    * **Performance Viz:** **Lift Charts**, **Cumulative Gains Charts**, Decile Analysis.
+-   **Business Insight:** Proved that targeting top-decile prospects captures 60% of responders with only 20% of the cost, maximizing campaign profit.
 -   **Files:** `Case 5.1...ipynb`, `Case 5.2...ipynb`
 
 #### Case 6: Credit Card Segmentation (Unsupervised Learning)
 **Goal:** **Market Segmentation.** Discover hidden patterns in customer spending behavior.
--   **🔑 Key Technical Skills:** **Unsupervised Learning**, **K-Means Clustering**, Elbow Method, Silhouette Analysis, Feature Scaling (Standardization).
+-   **🔑 Key Technical Skills:** **Unsupervised Learning**, **K-Means Clustering**, **Feature Scalarization (Scaling/Normalization)**, Elbow Method.
 -   **Business Insight:** Created distinct "Personas" (e.g., Big Spenders vs. Transactors) for targeted product offers.
 -   **File:** `Case 6_ Credit Card Clustering.ipynb`
 
@@ -81,8 +84,8 @@
 
 | Business Goal | Data Science Technique | Real-World Application |
 | :--- | :--- | :--- |
-| **Maximize Revenue / ROI** | **Lift & Gains Charts** | Targeting only high-probability leads to optimize marketing spend. |
-| **Reduce Churn** | **Ensemble Methods (RF/GBM)** | Using advanced non-linear models to identify at-risk customers with high accuracy. |
-| **Market Segmentation** | **Clustering (K-Means)** | Grouping customers by behavior for personalized messaging. |
-| **Asset Valuation** | **Multiple Regression** | Automated pricing models for real estate. |
-| **Risk Management** | **Fairness Metrics** | Auditing AI to prevent discrimination and ensure compliance. |
+| **Maximize Profit** | **Expected Value Framework** | Calculating exact dollar profit from confusion matrices to optimize decision thresholds (Bank Case). |
+| **Model Optimization** | **GridSearchCV** | Automatically tuning hyperparameters to find the most accurate model (HR Case). |
+| **Data Prep** | **Scalarization** | Scaling features to ensure distance-based algorithms like K-Means work correctly (Credit Card Case). |
+| **Reduce Churn** | **Ensemble Methods** | Using Random Forest/GBM to identify at-risk customers with high accuracy (Telco Case). |
+| **Risk Management** | **Fairness Metrics** | Auditing AI to prevent discrimination and ensure compliance (Healthcare Case). |
