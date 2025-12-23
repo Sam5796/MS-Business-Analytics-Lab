@@ -80,7 +80,7 @@
 
 ---
 
-## 🚀 Skills Synthesis Matrix
+## 🚀 Skills 
 
 | Business Goal | Data Science Technique | Real-World Application |
 | :--- | :--- | :--- |
