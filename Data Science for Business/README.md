@@ -2,13 +2,13 @@
 
 ## 📚 Course Overview
 **Subject:** Data Science for Business
-**Focus:** Translating raw data into business decisions using the **CRISP-DM** framework. The curriculum moves from **Descriptive Analytics** (EDA) to **Predictive Modeling** (Regression/Classification) and **Prescriptive Analytics** (Optimization).
+**Focus:** Translating raw data into business decisions using the **CRISP-DM** (Cross-Industry Standard Process for Data Mining) framework. The curriculum moves from **Descriptive Analytics** (EDA) to **Predictive Modeling** (Regression/Classification) and **Prescriptive Analytics** (Optimization).
 
 ## 🛠 Tools & Tech Stack
 -   **Languages:** Python (Pandas, NumPy, Scikit-Learn), SQL
--   **Modeling:** Logistic Regression, Decision Trees, **Ensemble Methods (Random Forest, Gradient Boosting)**, K-Means Clustering
--   **Optimization:** **GridSearchCV (Hyperparameter Tuning)**, Feature Selection (RFE)
--   **Evaluation:** **Expected Value Framework (Profit Curves)**, Lift & Gains Charts, ROC-AUC
+-   **Modeling:** Logistic Regression, Decision Trees, Ensemble Methods (Random Forest, Gradient Boosting), K-Means Clustering
+-   **Optimization:** GridSearchCV (Hyperparameter Tuning), Feature Selection (RFE)
+-   **Evaluation:** Expected Value Framework (Profit Curves), Lift & Gains Charts, ROC-AUC
 -   **Ethics:** AIF360 (Fairness Metrics), Disparate Impact Analysis
 
 ---
@@ -19,21 +19,21 @@
 
 #### Case 1: AirBnB Market Analysis (Descriptive)
 **Goal:** Optimize listing pricing strategies by identifying location and amenity value drivers.
--   **🔑 Key Technical Skills:** Data Wrangling, **Exploratory Data Analysis (EDA)**, Outlier Detection, Pivot Tables, Visualization (Seaborn/Matplotlib).
+-   **🔑 Key Technical Skills:** Data Wrangling, Exploratory Data Analysis (EDA), Outlier Detection, Pivot Tables, Visualization (Seaborn/Matplotlib).
 -   **Business Insight:** Mapped pricing distribution to help hosts maximize occupancy and revenue.
 -   **File:** `Case 1_ AirBnB Data Analysis with Python.ipynb`
 
 #### Case 2: Telco Customer Churn (End-to-End Pipeline)
 **Goal:** **Customer Retention.** Predict which customers are likely to cancel service.
--   **🔑 Key Technical Skills:** Binary Classification, **Feature Scalarization (StandardScaler)**, One-Hot Encoding, Handling Imbalanced Data, Train-Test Split.
+-   **🔑 Key Technical Skills:** Binary Classification, Feature Scalarization (StandardScaler), One-Hot Encoding, Handling Imbalanced Data, Train-Test Split.
 -   **Business Insight:** Enabled proactive identification of "at-risk" customers to reduce churn rates.
 -   **File:** `Unguided Case 2_ Telco Customer Churn.ipynb`
 
 #### Case 3: HR Analytics – Employee Attrition (Ensembles)
 **Goal:** **Workforce Planning.** Predict voluntary turnover and understand *why* employees leave.
 -   **🔑 Key Technical Skills:**
-    * **Hyperparameter Tuning:** Using **GridSearchCV** to optimize model performance.
-    * **Ensemble Methods:** **Random Forest** & **Gradient Boosting** compared against baseline Logistic Regression.
+    * **Hyperparameter Tuning:** Using GridSearchCV to optimize model performance.
+    * **Ensemble Methods:** Random Forest & Gradient Boosting compared against baseline Logistic Regression.
     * **Decision Trees:** Rule Induction (Entropy/Gini).
 -   **Business Insight:** Balanced model accuracy with interpretability to help HR intervene before employees resign.
 -   **Files:** `Case 3.1...ipynb`, `Case 3.2...ipynb`, `Case 3.3...ipynb`
@@ -44,21 +44,21 @@
 
 #### Case 4: Real Estate Valuation (Regression)
 **Goal:** **Asset Pricing.** Build an Automated Valuation Model (AVM) for housing prices.
--   **🔑 Key Technical Skills:** **Simple & Multiple Linear Regression (OLS)**, Feature Selection, Residual Analysis, Multicollinearity checks, Metrics (**RMSE, R-Squared**).
+-   **🔑 Key Technical Skills:** Simple & Multiple Linear Regression (OLS), Feature Selection, Residual Analysis, Multicollinearity checks, Metrics (RMSE, R-Squared).
 -   **Business Insight:** Quantified the marginal dollar value of specific home features (e.g., "impact of an extra bedroom").
 -   **Files:** `Case 4.1...ipynb`, `Case 4.2...ipynb`
 
 #### Case 5: Bank Marketing Optimization (Financial Evaluation)
 **Goal:** **Marketing ROI.** Maximize the profit of a term-deposit marketing campaign.
 -   **🔑 Key Technical Skills:**
-    * **Expected Value Framework:** Calculating the **Profit from the Confusion Matrix** (Benefit of True Positive vs. Cost of False Positive).
-    * **Performance Viz:** **Lift Charts**, **Cumulative Gains Charts**, Decile Analysis.
+    * **Expected Value Framework:** Calculating Profit from the Confusion Matrix (Benefit of True Positive vs. Cost of False Positive).
+    * **Performance Viz:** Lift Charts, Cumulative Gains Charts, Decile Analysis.
 -   **Business Insight:** Proved that targeting top-decile prospects captures 60% of responders with only 20% of the cost, maximizing campaign profit.
 -   **Files:** `Case 5.1...ipynb`, `Case 5.2...ipynb`
 
 #### Case 6: Credit Card Segmentation (Unsupervised Learning)
 **Goal:** **Market Segmentation.** Discover hidden patterns in customer spending behavior.
--   **🔑 Key Technical Skills:** **Unsupervised Learning**, **K-Means Clustering**, **Feature Scalarization (Scaling/Normalization)**, Elbow Method.
+-   **🔑 Key Technical Skills:** Unsupervised Learning, K-Means Clustering, Feature Scalarization (Scaling/Normalization, Elbow Method.
 -   **Business Insight:** Created distinct "Personas" (e.g., Big Spenders vs. Transactors) for targeted product offers.
 -   **File:** `Case 6_ Credit Card Clustering.ipynb`
 
